@@ -1,7 +1,5 @@
 package com.aeropuerto.services.impl;
 
-import java.sql.Time;
-import java.util.Date;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,4 +25,8 @@ public class VueloServiceImpl implements IVueloService {
 	iVueloDao.updatePlazasOcupadasFromVuelo(plazasOcupadas, idVuelo);
     }
 
+    @Override
+    public void updatePlazasOcupadasMenosFromVuelo(String idVuelo) {
+	iVueloDao.updatePlazasOcupadasMenosFromVuelo(idVuelo);
+    }
 }

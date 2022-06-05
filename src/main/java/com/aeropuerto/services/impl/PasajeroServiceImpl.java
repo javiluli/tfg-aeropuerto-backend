@@ -22,4 +22,9 @@ public class PasajeroServiceImpl implements IPasajeroService {
 	iPasajeroDao.savePasajeroDto(pasajero.getDni(), pasajero.getApellidos(), pasajero.getEmail(), pasajero.getNombre(), pasajero.getReserva().getIdReserva());
     }
 
+    @Override
+    public Pasajero findPasajeroByIdReserva(String idReserva) {
+	return iPasajeroDao.findPasajeroByIdReserva(idReserva);
+    }
+
 }

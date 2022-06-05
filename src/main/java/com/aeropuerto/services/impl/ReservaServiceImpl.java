@@ -22,4 +22,14 @@ public class ReservaServiceImpl implements IReservaService {
 	iReservaDao.saveReservaDto(reserva.getIdReserva(), reserva.getFechaReserva(), reserva.getVuelo().getIdVuelo());
     }
 
+    @Override
+    public Reserva findPasajeroByIdReserva(String idReserva) {
+	return iReservaDao.findByReserva(idReserva);
+    }
+
+    @Override
+    public void eliminarReservaByIdReserva(String idReserva) {
+	iReservaDao.eliminarReservaByIdReserva(idReserva);
+    }
+
 }

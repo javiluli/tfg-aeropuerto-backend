@@ -36,11 +36,6 @@ public class VueloController {
 
     @GetMapping("/vuelosBySalidaAndLlegada")
     public ResponseEntity<List<VueloDTO>> findVuelosBy(@RequestParam String origen, @RequestParam String destino, @RequestParam String fechaSalida, @RequestParam String horaSalida) {
-	System.out.println(origen);
-	System.out.println(destino);
-	System.out.println(fechaSalida);
-	System.out.println(horaSalida);
-	
 	VueloDTO vueloDto = null;
 	List<Vuelo> lVuelos = iVueloService.findVuelosBy(origen, destino, fechaSalida, horaSalida);
 	List<VueloDTO> lVueloDto = new ArrayList<>();

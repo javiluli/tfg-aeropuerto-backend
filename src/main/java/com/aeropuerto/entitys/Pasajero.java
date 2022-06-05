@@ -12,6 +12,9 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
+import org.hibernate.annotations.OnDelete;
+import org.hibernate.annotations.OnDeleteAction;
+
 import com.aeropuerto.entitys.primaryKeys.IdPasajero;
 
 @Entity
@@ -24,6 +27,7 @@ public class Pasajero implements Serializable {
     @Id
     @JoinColumn(name = "id_reserva", referencedColumnName = "id_reserva", foreignKey = @ForeignKey(name = "fk_pasajeros_reservas"), nullable = false)
     @ManyToOne(cascade = CascadeType.ALL)
+    @OnDelete(action = OnDeleteAction.CASCADE)
     private Reserva reserva;
 
     @Id

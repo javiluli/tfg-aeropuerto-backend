@@ -29,6 +29,9 @@ public interface IVueloDao extends JpaRepository<Vuelo, String> {
     	+ "	    SET plazas_ocupadas = plazas_ocupadas + :numero_pasajeros"
     	+ "	    WHERE id_vuelo = :id_vuelo", nativeQuery = true)
     public void updatePlazasOcupadasFromVuelo(int numero_pasajeros, String id_vuelo );
-
-
+    
+    @Modifying
+    @Transactional
+    @Query(value = "UPDATE vuelos v SET plazas_ocupadas = plazas_ocupadas - 1 WHERE v.id_vuelo = :idVuelo ", nativeQuery = true)
+    public void updatePlazasOcupadasMenosFromVuelo(String idVuelo );
 }

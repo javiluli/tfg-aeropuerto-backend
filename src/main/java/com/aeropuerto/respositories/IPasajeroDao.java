@@ -18,4 +18,7 @@ public interface IPasajeroDao extends JpaRepository<Pasajero, IdPasajero> {
     @Query(value = "INSERT INTO pasajeros VALUES ( :dni, :apellidos, :email, :nombre, :id_reserva )", nativeQuery = true)
     public void savePasajeroDto(String dni, String apellidos, String email, String nombre, String id_reserva);
 
+    @Query(value = "SELECT p.* FROM pasajeros p WHERE p.id_reserva = :idReserva", nativeQuery = true)
+    public Pasajero findPasajeroByIdReserva(String idReserva);
+
 }
