@@ -19,8 +19,6 @@ public interface IReservaDao extends JpaRepository<Reserva, String> {
     @Query(value = "INSERT INTO reservas VALUES ( :idReserva, :fechaReserva, :idVuelo )", nativeQuery = true)
     public void saveReservaDto(String idReserva, Date fechaReserva, String idVuelo);
 
-    
-  
     @Query(value = "SELECT v.*, p.*, r.*"
     	+ "	    FROM reservas r, vuelos v, pasajeros p"
     	+ "	    WHERE r.id_vuelo = v.id_vuelo AND r.id_reserva = :idReserva AND p.id_reserva = :idReserva", nativeQuery = true)
@@ -30,4 +28,5 @@ public interface IReservaDao extends JpaRepository<Reserva, String> {
     @Transactional
     @Query(value = "DELETE FROM reservas WHERE id_reserva = :idReserva", nativeQuery = true)
     public void eliminarReservaByIdReserva(String idReserva);
+    
 }

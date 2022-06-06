@@ -79,7 +79,6 @@ public class ReservaController {
     @GetMapping("/reserva/{id}")
     private ResponseEntity<Reserva> findPasajeroByIdReserva(@PathVariable(name = "id") String idReserva) {
 	return new ResponseEntity<Reserva>(iReservaService.findPasajeroByIdReserva(idReserva), HttpStatus.OK);
-
     }
 
 }
