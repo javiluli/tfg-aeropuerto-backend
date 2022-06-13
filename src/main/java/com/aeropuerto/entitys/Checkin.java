@@ -34,6 +34,10 @@ public class Checkin implements Serializable {
     @ManyToOne(cascade = CascadeType.ALL)
     private Asiento asiento;
 
+    @JoinColumn(name = "id_reserva", referencedColumnName = "id_reserva", foreignKey = @ForeignKey(name = "fk_checkin_reserva"), nullable = false)
+    @ManyToOne(cascade = CascadeType.ALL)
+    private Reserva reserva;
+
     public Vuelo getVuelo() {
 	return vuelo;
     }
@@ -50,9 +54,12 @@ public class Checkin implements Serializable {
 	this.asiento = asiento;
     }
 
-    @Override
-    public String toString() {
-	return "Checkin [vuelo=" + vuelo + ", asiento=" + asiento + "]";
+    public Reserva getReserva() {
+	return reserva;
+    }
+
+    public void setReserva(Reserva reserva) {
+	this.reserva = reserva;
     }
 
 }

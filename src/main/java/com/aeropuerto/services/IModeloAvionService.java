@@ -9,4 +9,5 @@ public interface IModeloAvionService {
 
     public List<ModeloAvion> findAllModelosAvion();
 
+    public String findModelosAvionByIdReserva(String idReserva);
 }

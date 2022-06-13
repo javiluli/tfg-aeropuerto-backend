@@ -49,4 +49,9 @@ public class Asiento implements Serializable {
 	this.letraAsiento = letraAsiento;
     }
 
+    @Override
+    public String toString() {
+	return "Asiento [fila=" + fila + ", letraAsiento=" + letraAsiento + "]";
+    }
+
 }

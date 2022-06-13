@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.aeropuerto.entitys.Reserva;
 import com.aeropuerto.models.dto.PasajeroDTO;
 import com.aeropuerto.models.dto.ReservaDTO;
+import com.aeropuerto.models.dto.ReservaDTOBusquedaCheckin.ReservaDTO_Busqueda_Checkin;
 import com.aeropuerto.services.IPasajeroService;
 import com.aeropuerto.services.IReservaService;
 import com.aeropuerto.services.IVueloService;
@@ -77,8 +78,8 @@ public class ReservaController {
     }
 
     @GetMapping("/reserva/{id}")
-    private ResponseEntity<Reserva> findPasajeroByIdReserva(@PathVariable(name = "id") String idReserva) {
-	return new ResponseEntity<Reserva>(iReservaService.findPasajeroByIdReserva(idReserva), HttpStatus.OK);
+    private ResponseEntity<ReservaDTO_Busqueda_Checkin> findReservaByIdReserva(@PathVariable(name = "id") String idReserva) {
+	return new ResponseEntity<ReservaDTO_Busqueda_Checkin>(iReservaService.findReservaByIdReserva(idReserva), HttpStatus.OK);
     }
 
 }

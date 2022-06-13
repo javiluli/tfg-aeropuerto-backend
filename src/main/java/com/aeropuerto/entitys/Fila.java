@@ -56,4 +56,10 @@ public class Fila implements Serializable {
 	this.cantidadAsientos = cantidadAsientos;
     }
 
+    @Override
+    public String toString() {
+	return "Fila [modeloAvion=" + modeloAvion + ", numeroFila=" + numeroFila + ", cantidadAsientos="
+		+ cantidadAsientos + "]";
+    }
+
 }

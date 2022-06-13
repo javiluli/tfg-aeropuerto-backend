@@ -10,4 +10,6 @@ public interface ICheckinService {
     public void saveCheckinDto(CheckinDTO checkinDto);
 
     public List<Checkin> findCheckinsByIdVueloAndNombreModelo(String idVuelo, String nombreModelo);
+    
+    public List<CheckinDTO> findCheckinsByIdReserva(String idReserva);
 }

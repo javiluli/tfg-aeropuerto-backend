@@ -2,6 +2,7 @@ package com.aeropuerto.services.impl;
 
 import java.util.List;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -23,6 +24,11 @@ public class ModeloAvionServiceImpl implements IModeloAvionService {
     @Override
     public List<ModeloAvion> findAllModelosAvion() {
 	return iModeloAvionDao.findAll();
+    }
+
+    @Override
+    public String findModelosAvionByIdReserva(String idReserva) {
+	return iModeloAvionDao.findModelosAvionByIdReserva(idReserva);
     }
 
 }

@@ -27,6 +27,6 @@ public interface IReservaDao extends JpaRepository<Reserva, String> {
     @Modifying
     @Transactional
     @Query(value = "DELETE FROM reservas WHERE id_reserva = :idReserva", nativeQuery = true)
-    public void eliminarReservaByIdReserva(String idReserva);
+    public void eliminarReservaByIdReserva(String idReserva); 
     
 }

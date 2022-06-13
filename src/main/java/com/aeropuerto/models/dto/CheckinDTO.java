@@ -10,15 +10,17 @@ public class CheckinDTO implements Serializable {
     private String nombreModelo;
     private String numeroFila;
     private String letraAsiento;
+    private String idReserva;
 
     public CheckinDTO() {
     }
 
-    public CheckinDTO(String idVuelo, String nombreModelo, String numeroFila, String letraAsiento) {
+    public CheckinDTO(String idVuelo, String nombreModelo, String numeroFila, String letraAsiento, String idReserva) {
 	this.idVuelo = idVuelo;
 	this.nombreModelo = nombreModelo;
 	this.numeroFila = numeroFila;
 	this.letraAsiento = letraAsiento;
+	this.idReserva = idReserva;
     }
 
     public String getIdVuelo() {
@@ -53,10 +55,18 @@ public class CheckinDTO implements Serializable {
 	this.letraAsiento = letraAsiento;
     }
 
+    public String getIdReserva() {
+	return idReserva;
+    }
+
+    public void setIdReserva(String idReserva) {
+	this.idReserva = idReserva;
+    }
+
     @Override
     public String toString() {
 	return "CheckinDTO [idVuelo=" + idVuelo + ", nombreModelo=" + nombreModelo + ", numeroFila=" + numeroFila
-		+ ", letraAsiento=" + letraAsiento + "]";
+		+ ", letraAsiento=" + letraAsiento + ", idReserva=" + idReserva + "]";
     }
 
 }

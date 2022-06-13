@@ -366,37 +366,42 @@ insert into asientos values('A', 'Airbus319', '01');
 insert into asientos values('B', 'Airbus319', '01');
 insert into asientos values('C', 'Airbus319', '01');
 insert into asientos values('D', 'Airbus319', '01');
-insert into asientos values('E', 'Airbus319', '01');
-insert into asientos values('F', 'Airbus319', '01');
-insert into asientos values('G', 'Airbus319', '01');
-insert into asientos values('H', 'Airbus319', '01');
 
 insert into asientos values('A', 'Airbus319', '02');
 insert into asientos values('B', 'Airbus319', '02');
 insert into asientos values('C', 'Airbus319', '02');
 insert into asientos values('D', 'Airbus319', '02');
-insert into asientos values('E', 'Airbus319', '02');
-insert into asientos values('F', 'Airbus319', '02');
-insert into asientos values('G', 'Airbus319', '02');
-insert into asientos values('H', 'Airbus319', '02');
 
 insert into asientos values('A', 'Airbus319', '03');
 insert into asientos values('B', 'Airbus319', '03');
 insert into asientos values('C', 'Airbus319', '03');
 insert into asientos values('D', 'Airbus319', '03');
-insert into asientos values('E', 'Airbus319', '03');
-insert into asientos values('F', 'Airbus319', '03');
-insert into asientos values('G', 'Airbus319', '03');
-insert into asientos values('H', 'Airbus319', '03');
 
 insert into asientos values('A', 'Airbus319', '04');
 insert into asientos values('B', 'Airbus319', '04');
 insert into asientos values('C', 'Airbus319', '04');
 insert into asientos values('D', 'Airbus319', '04');
-insert into asientos values('E', 'Airbus319', '04');
-insert into asientos values('F', 'Airbus319', '04');
-insert into asientos values('G', 'Airbus319', '04');
-insert into asientos values('H', 'Airbus319', '04');
+
+insert into asientos values('A', 'Airbus319', '05');
+insert into asientos values('B', 'Airbus319', '05');
+insert into asientos values('C', 'Airbus319', '05');
+insert into asientos values('D', 'Airbus319', '05');
+
+insert into asientos values('A', 'Airbus319', '06');
+insert into asientos values('B', 'Airbus319', '06');
+insert into asientos values('C', 'Airbus319', '06');
+insert into asientos values('D', 'Airbus319', '06');
+
+insert into asientos values('A', 'Airbus319', '07');
+insert into asientos values('B', 'Airbus319', '07');
+insert into asientos values('C', 'Airbus319', '07');
+insert into asientos values('D', 'Airbus319', '07');
+
+insert into asientos values('A', 'Airbus319', '08');
+insert into asientos values('B', 'Airbus319', '08');
+insert into asientos values('C', 'Airbus319', '08');
+insert into asientos values('D', 'Airbus319', '08');
+
 /*
 -- modelo AIRBUS 320(48 asientos)
 */
@@ -406,8 +411,6 @@ insert into asientos values('C', 'Airbus320', '01');
 insert into asientos values('D', 'Airbus320', '01');
 insert into asientos values('E', 'Airbus320', '01');
 insert into asientos values('F', 'Airbus320', '01');
-insert into asientos values('G', 'Airbus320', '01');
-insert into asientos values('H', 'Airbus320', '01');
 
 insert into asientos values('A', 'Airbus320', '02');
 insert into asientos values('B', 'Airbus320', '02');
@@ -415,8 +418,6 @@ insert into asientos values('C', 'Airbus320', '02');
 insert into asientos values('D', 'Airbus320', '02');
 insert into asientos values('E', 'Airbus320', '02');
 insert into asientos values('F', 'Airbus320', '02');
-insert into asientos values('G', 'Airbus320', '02');
-insert into asientos values('H', 'Airbus320', '02');
 
 insert into asientos values('A', 'Airbus320', '03');
 insert into asientos values('B', 'Airbus320', '03');
@@ -424,8 +425,6 @@ insert into asientos values('C', 'Airbus320', '03');
 insert into asientos values('D', 'Airbus320', '03');
 insert into asientos values('E', 'Airbus320', '03');
 insert into asientos values('F', 'Airbus320', '03');
-insert into asientos values('G', 'Airbus320', '03');
-insert into asientos values('H', 'Airbus320', '03');
 
 insert into asientos values('A', 'Airbus320', '04');
 insert into asientos values('B', 'Airbus320', '04');
@@ -433,8 +432,6 @@ insert into asientos values('C', 'Airbus320', '04');
 insert into asientos values('D', 'Airbus320', '04');
 insert into asientos values('E', 'Airbus320', '04');
 insert into asientos values('F', 'Airbus320', '04');
-insert into asientos values('G', 'Airbus320', '04');
-insert into asientos values('H', 'Airbus320', '04');
 
 insert into asientos values('A', 'Airbus320', '05');
 insert into asientos values('B', 'Airbus320', '05');
@@ -442,8 +439,6 @@ insert into asientos values('C', 'Airbus320', '05');
 insert into asientos values('D', 'Airbus320', '05');
 insert into asientos values('E', 'Airbus320', '05');
 insert into asientos values('F', 'Airbus320', '05');
-insert into asientos values('G', 'Airbus320', '05');
-insert into asientos values('H', 'Airbus320', '05');
 
 insert into asientos values('A', 'Airbus320', '06');
 insert into asientos values('B', 'Airbus320', '06');
@@ -451,9 +446,20 @@ insert into asientos values('C', 'Airbus320', '06');
 insert into asientos values('D', 'Airbus320', '06');
 insert into asientos values('E', 'Airbus320', '06');
 insert into asientos values('F', 'Airbus320', '06');
-insert into asientos values('G', 'Airbus320', '06');
-insert into asientos values('H', 'Airbus320', '06');
 
+insert into asientos values('A', 'Airbus320', '07');
+insert into asientos values('B', 'Airbus320', '07');
+insert into asientos values('C', 'Airbus320', '07');
+insert into asientos values('D', 'Airbus320', '07');
+insert into asientos values('E', 'Airbus320', '07');
+insert into asientos values('F', 'Airbus320', '07');
+
+insert into asientos values('A', 'Airbus320', '08');
+insert into asientos values('B', 'Airbus320', '08');
+insert into asientos values('C', 'Airbus320', '08');
+insert into asientos values('D', 'Airbus320', '08');
+insert into asientos values('E', 'Airbus320', '08');
+insert into asientos values('F', 'Airbus320', '08');
 
 /*
 -- modelo Md87 (28 asientos)
@@ -462,33 +468,36 @@ insert into asientos values('A', 'Md87', '01');
 insert into asientos values('B', 'Md87', '01');
 insert into asientos values('C', 'Md87', '01');
 insert into asientos values('D', 'Md87', '01');
-insert into asientos values('E', 'Md87', '01');
-insert into asientos values('F', 'Md87', '01');
-insert into asientos values('G', 'Md87', '01');
 
 insert into asientos values('A', 'Md87', '02');
 insert into asientos values('B', 'Md87', '02');
 insert into asientos values('C', 'Md87', '02');
 insert into asientos values('D', 'Md87', '02');
-insert into asientos values('E', 'Md87', '02');
-insert into asientos values('F', 'Md87', '02');
-insert into asientos values('G', 'Md87', '02');
 
 insert into asientos values('A', 'Md87', '03');
 insert into asientos values('B', 'Md87', '03');
 insert into asientos values('C', 'Md87', '03');
 insert into asientos values('D', 'Md87', '03');
-insert into asientos values('E', 'Md87', '03');
-insert into asientos values('F', 'Md87', '03');
-insert into asientos values('G', 'Md87', '03');
 
 insert into asientos values('A', 'Md87', '04');
 insert into asientos values('B', 'Md87', '04');
 insert into asientos values('C', 'Md87', '04');
 insert into asientos values('D', 'Md87', '04');
-insert into asientos values('E', 'Md87', '04');
-insert into asientos values('F', 'Md87', '04');
-insert into asientos values('G', 'Md87', '04');
+
+insert into asientos values('A', 'Md87', '05');
+insert into asientos values('B', 'Md87', '05');
+insert into asientos values('C', 'Md87', '05');
+insert into asientos values('D', 'Md87', '05');
+
+insert into asientos values('A', 'Md87', '06');
+insert into asientos values('B', 'Md87', '06');
+insert into asientos values('C', 'Md87', '06');
+insert into asientos values('D', 'Md87', '06');
+
+insert into asientos values('A', 'Md87', '07');
+insert into asientos values('B', 'Md87', '07');
+insert into asientos values('C', 'Md87', '07');
+insert into asientos values('D', 'Md87', '07');
 
 /*
 -- modelo Boeing 747(48 asientos)
@@ -497,53 +506,61 @@ insert into asientos values('A', 'Boeing747', '01');
 insert into asientos values('B', 'Boeing747', '01');
 insert into asientos values('C', 'Boeing747', '01');
 insert into asientos values('D', 'Boeing747', '01');
-insert into asientos values('E', 'Boeing747', '01');
-insert into asientos values('F', 'Boeing747', '01');
-insert into asientos values('G', 'Boeing747', '01');
-insert into asientos values('H', 'Boeing747', '01');
-insert into asientos values('I', 'Boeing747', '01');
-insert into asientos values('J', 'Boeing747', '01');
-insert into asientos values('K', 'Boeing747', '01');
-insert into asientos values('L', 'Boeing747', '01');
 
 insert into asientos values('A', 'Boeing747', '02');
 insert into asientos values('B', 'Boeing747', '02');
 insert into asientos values('C', 'Boeing747', '02');
 insert into asientos values('D', 'Boeing747', '02');
-insert into asientos values('E', 'Boeing747', '02');
-insert into asientos values('F', 'Boeing747', '02');
-insert into asientos values('G', 'Boeing747', '02');
-insert into asientos values('H', 'Boeing747', '02');
-insert into asientos values('I', 'Boeing747', '02');
-insert into asientos values('J', 'Boeing747', '02');
-insert into asientos values('K', 'Boeing747', '02');
-insert into asientos values('L', 'Boeing747', '02');
 
 insert into asientos values('A', 'Boeing747', '03');
 insert into asientos values('B', 'Boeing747', '03');
 insert into asientos values('C', 'Boeing747', '03');
 insert into asientos values('D', 'Boeing747', '03');
-insert into asientos values('E', 'Boeing747', '03');
-insert into asientos values('F', 'Boeing747', '03');
-insert into asientos values('G', 'Boeing747', '03');
-insert into asientos values('H', 'Boeing747', '03');
-insert into asientos values('I', 'Boeing747', '03');
-insert into asientos values('J', 'Boeing747', '03');
-insert into asientos values('K', 'Boeing747', '03');
-insert into asientos values('L', 'Boeing747', '03');
 
 insert into asientos values('A', 'Boeing747', '04');
 insert into asientos values('B', 'Boeing747', '04');
 insert into asientos values('C', 'Boeing747', '04');
 insert into asientos values('D', 'Boeing747', '04');
-insert into asientos values('E', 'Boeing747', '04');
-insert into asientos values('F', 'Boeing747', '04');
-insert into asientos values('G', 'Boeing747', '04');
-insert into asientos values('H', 'Boeing747', '04');
-insert into asientos values('I', 'Boeing747', '04');
-insert into asientos values('J', 'Boeing747', '04');
-insert into asientos values('K', 'Boeing747', '04');
-insert into asientos values('L', 'Boeing747', '04');
+
+insert into asientos values('A', 'Boeing747', '05');
+insert into asientos values('B', 'Boeing747', '05');
+insert into asientos values('C', 'Boeing747', '05');
+insert into asientos values('D', 'Boeing747', '05');
+
+insert into asientos values('A', 'Boeing747', '06');
+insert into asientos values('B', 'Boeing747', '06');
+insert into asientos values('C', 'Boeing747', '06');
+insert into asientos values('D', 'Boeing747', '06');
+
+insert into asientos values('A', 'Boeing747', '07');
+insert into asientos values('B', 'Boeing747', '07');
+insert into asientos values('C', 'Boeing747', '07');
+insert into asientos values('D', 'Boeing747', '07');
+
+insert into asientos values('A', 'Boeing747', '08');
+insert into asientos values('B', 'Boeing747', '08');
+insert into asientos values('C', 'Boeing747', '08');
+insert into asientos values('D', 'Boeing747', '08');
+
+insert into asientos values('A', 'Boeing747', '09');
+insert into asientos values('B', 'Boeing747', '09');
+insert into asientos values('C', 'Boeing747', '09');
+insert into asientos values('D', 'Boeing747', '09');
+
+insert into asientos values('A', 'Boeing747', '10');
+insert into asientos values('B', 'Boeing747', '10');
+insert into asientos values('C', 'Boeing747', '10');
+insert into asientos values('D', 'Boeing747', '10');
+
+insert into asientos values('A', 'Boeing747', '11');
+insert into asientos values('B', 'Boeing747', '11');
+insert into asientos values('C', 'Boeing747', '11');
+insert into asientos values('D', 'Boeing747', '11');
+
+insert into asientos values('A', 'Boeing747', '12');
+insert into asientos values('B', 'Boeing747', '12');
+insert into asientos values('C', 'Boeing747', '12');
+insert into asientos values('D', 'Boeing747', '12');
 
 /*
 -- modelo Boeing 757(78 asientos)
@@ -554,13 +571,6 @@ insert into asientos values('C', 'Boeing757', '01');
 insert into asientos values('D', 'Boeing757', '01');
 insert into asientos values('E', 'Boeing757', '01');
 insert into asientos values('F', 'Boeing757', '01');
-insert into asientos values('G', 'Boeing757', '01');
-insert into asientos values('H', 'Boeing757', '01');
-insert into asientos values('I', 'Boeing757', '01');
-insert into asientos values('J', 'Boeing757', '01');
-insert into asientos values('K', 'Boeing757', '01');
-insert into asientos values('L', 'Boeing757', '01');
-insert into asientos values('M', 'Boeing757', '01');
 
 insert into asientos values('A', 'Boeing757', '02');
 insert into asientos values('B', 'Boeing757', '02');
@@ -568,13 +578,6 @@ insert into asientos values('C', 'Boeing757', '02');
 insert into asientos values('D', 'Boeing757', '02');
 insert into asientos values('E', 'Boeing757', '02');
 insert into asientos values('F', 'Boeing757', '02');
-insert into asientos values('G', 'Boeing757', '02');
-insert into asientos values('H', 'Boeing757', '02');
-insert into asientos values('I', 'Boeing757', '02');
-insert into asientos values('J', 'Boeing757', '02');
-insert into asientos values('K', 'Boeing757', '02');
-insert into asientos values('L', 'Boeing757', '02');
-insert into asientos values('M', 'Boeing757', '02');
 
 insert into asientos values('A', 'Boeing757', '03');
 insert into asientos values('B', 'Boeing757', '03');
@@ -582,13 +585,6 @@ insert into asientos values('C', 'Boeing757', '03');
 insert into asientos values('D', 'Boeing757', '03');
 insert into asientos values('E', 'Boeing757', '03');
 insert into asientos values('F', 'Boeing757', '03');
-insert into asientos values('G', 'Boeing757', '03');
-insert into asientos values('H', 'Boeing757', '03');
-insert into asientos values('I', 'Boeing757', '03');
-insert into asientos values('J', 'Boeing757', '03');
-insert into asientos values('K', 'Boeing757', '03');
-insert into asientos values('L', 'Boeing757', '03');
-insert into asientos values('M', 'Boeing757', '03');
 
 insert into asientos values('A', 'Boeing757', '04');
 insert into asientos values('B', 'Boeing757', '04');
@@ -596,13 +592,6 @@ insert into asientos values('C', 'Boeing757', '04');
 insert into asientos values('D', 'Boeing757', '04');
 insert into asientos values('E', 'Boeing757', '04');
 insert into asientos values('F', 'Boeing757', '04');
-insert into asientos values('G', 'Boeing757', '04');
-insert into asientos values('H', 'Boeing757', '04');
-insert into asientos values('I', 'Boeing757', '04');
-insert into asientos values('J', 'Boeing757', '04');
-insert into asientos values('K', 'Boeing757', '04');
-insert into asientos values('L', 'Boeing757', '04');
-insert into asientos values('M', 'Boeing757', '04');
 
 insert into asientos values('A', 'Boeing757', '05');
 insert into asientos values('B', 'Boeing757', '05');
@@ -610,13 +599,6 @@ insert into asientos values('C', 'Boeing757', '05');
 insert into asientos values('D', 'Boeing757', '05');
 insert into asientos values('E', 'Boeing757', '05');
 insert into asientos values('F', 'Boeing757', '05');
-insert into asientos values('G', 'Boeing757', '05');
-insert into asientos values('H', 'Boeing757', '05');
-insert into asientos values('I', 'Boeing757', '05');
-insert into asientos values('J', 'Boeing757', '05');
-insert into asientos values('K', 'Boeing757', '05');
-insert into asientos values('L', 'Boeing757', '05');
-insert into asientos values('M', 'Boeing757', '05');
 
 insert into asientos values('A', 'Boeing757', '06');
 insert into asientos values('B', 'Boeing757', '06');
@@ -624,13 +606,55 @@ insert into asientos values('C', 'Boeing757', '06');
 insert into asientos values('D', 'Boeing757', '06');
 insert into asientos values('E', 'Boeing757', '06');
 insert into asientos values('F', 'Boeing757', '06');
-insert into asientos values('G', 'Boeing757', '06');
-insert into asientos values('H', 'Boeing757', '06');
-insert into asientos values('I', 'Boeing757', '06');
-insert into asientos values('J', 'Boeing757', '06');
-insert into asientos values('K', 'Boeing757', '06');
-insert into asientos values('L', 'Boeing757', '06');
-insert into asientos values('M', 'Boeing757', '06');
+
+insert into asientos values('A', 'Boeing757', '07');
+insert into asientos values('B', 'Boeing757', '07');
+insert into asientos values('C', 'Boeing757', '07');
+insert into asientos values('D', 'Boeing757', '07');
+insert into asientos values('E', 'Boeing757', '07');
+insert into asientos values('F', 'Boeing757', '07');
+
+insert into asientos values('A', 'Boeing757', '08');
+insert into asientos values('B', 'Boeing757', '08');
+insert into asientos values('C', 'Boeing757', '08');
+insert into asientos values('D', 'Boeing757', '08');
+insert into asientos values('E', 'Boeing757', '08');
+insert into asientos values('F', 'Boeing757', '08');
+
+insert into asientos values('A', 'Boeing757', '09');
+insert into asientos values('B', 'Boeing757', '09');
+insert into asientos values('C', 'Boeing757', '09');
+insert into asientos values('D', 'Boeing757', '09');
+insert into asientos values('E', 'Boeing757', '09');
+insert into asientos values('F', 'Boeing757', '09');
+
+insert into asientos values('A', 'Boeing757', '10');
+insert into asientos values('B', 'Boeing757', '10');
+insert into asientos values('C', 'Boeing757', '10');
+insert into asientos values('D', 'Boeing757', '10');
+insert into asientos values('E', 'Boeing757', '10');
+insert into asientos values('F', 'Boeing757', '10');
+
+insert into asientos values('A', 'Boeing757', '11');
+insert into asientos values('B', 'Boeing757', '11');
+insert into asientos values('C', 'Boeing757', '11');
+insert into asientos values('D', 'Boeing757', '11');
+insert into asientos values('E', 'Boeing757', '11');
+insert into asientos values('F', 'Boeing757', '11');
+
+insert into asientos values('A', 'Boeing757', '12');
+insert into asientos values('B', 'Boeing757', '12');
+insert into asientos values('C', 'Boeing757', '12');
+insert into asientos values('D', 'Boeing757', '12');
+insert into asientos values('E', 'Boeing757', '12');
+insert into asientos values('F', 'Boeing757', '12');
+
+insert into asientos values('A', 'Boeing757', '13');
+insert into asientos values('B', 'Boeing757', '13');
+insert into asientos values('C', 'Boeing757', '13');
+insert into asientos values('D', 'Boeing757', '13');
+insert into asientos values('E', 'Boeing757', '13');
+insert into asientos values('F', 'Boeing757', '13');
 
 /*
 -- modelo Airbus340(44 asientos)
@@ -639,49 +663,56 @@ insert into asientos values('A', 'Airbus340', '01');
 insert into asientos values('B', 'Airbus340', '01');
 insert into asientos values('C', 'Airbus340', '01');
 insert into asientos values('D', 'Airbus340', '01');
-insert into asientos values('E', 'Airbus340', '01');
-insert into asientos values('F', 'Airbus340', '01');
-insert into asientos values('G', 'Airbus340', '01');
-insert into asientos values('H', 'Airbus340', '01');
-insert into asientos values('I', 'Airbus340', '01');
-insert into asientos values('J', 'Airbus340', '01');
-insert into asientos values('K', 'Airbus340', '01');
 
 insert into asientos values('A', 'Airbus340', '02');
 insert into asientos values('B', 'Airbus340', '02');
 insert into asientos values('C', 'Airbus340', '02');
 insert into asientos values('D', 'Airbus340', '02');
-insert into asientos values('E', 'Airbus340', '02');
-insert into asientos values('F', 'Airbus340', '02');
-insert into asientos values('G', 'Airbus340', '02');
-insert into asientos values('H', 'Airbus340', '02');
-insert into asientos values('I', 'Airbus340', '02');
-insert into asientos values('J', 'Airbus340', '02');
-insert into asientos values('K', 'Airbus340', '02');
 
 insert into asientos values('A', 'Airbus340', '03');
 insert into asientos values('B', 'Airbus340', '03');
 insert into asientos values('C', 'Airbus340', '03');
 insert into asientos values('D', 'Airbus340', '03');
-insert into asientos values('E', 'Airbus340', '03');
-insert into asientos values('F', 'Airbus340', '03');
-insert into asientos values('G', 'Airbus340', '03');
-insert into asientos values('H', 'Airbus340', '03');
-insert into asientos values('I', 'Airbus340', '03');
-insert into asientos values('J', 'Airbus340', '03');
-insert into asientos values('K', 'Airbus340', '03');
 
 insert into asientos values('A', 'Airbus340', '04');
 insert into asientos values('B', 'Airbus340', '04');
 insert into asientos values('C', 'Airbus340', '04');
 insert into asientos values('D', 'Airbus340', '04');
-insert into asientos values('E', 'Airbus340', '04');
-insert into asientos values('F', 'Airbus340', '04');
-insert into asientos values('G', 'Airbus340', '04');
-insert into asientos values('H', 'Airbus340', '04');
-insert into asientos values('I', 'Airbus340', '04');
-insert into asientos values('J', 'Airbus340', '04');
-insert into asientos values('K', 'Airbus340', '04');
+
+insert into asientos values('A', 'Airbus340', '05');
+insert into asientos values('B', 'Airbus340', '05');
+insert into asientos values('C', 'Airbus340', '05');
+insert into asientos values('D', 'Airbus340', '05');
+
+insert into asientos values('A', 'Airbus340', '06');
+insert into asientos values('B', 'Airbus340', '06');
+insert into asientos values('C', 'Airbus340', '06');
+insert into asientos values('D', 'Airbus340', '06');
+
+insert into asientos values('A', 'Airbus340', '07');
+insert into asientos values('B', 'Airbus340', '07');
+insert into asientos values('C', 'Airbus340', '07');
+insert into asientos values('D', 'Airbus340', '07');
+
+insert into asientos values('A', 'Airbus340', '08');
+insert into asientos values('B', 'Airbus340', '08');
+insert into asientos values('C', 'Airbus340', '08');
+insert into asientos values('D', 'Airbus340', '08');
+
+insert into asientos values('A', 'Airbus340', '09');
+insert into asientos values('B', 'Airbus340', '09');
+insert into asientos values('C', 'Airbus340', '09');
+insert into asientos values('D', 'Airbus340', '09');
+
+insert into asientos values('A', 'Airbus340', '10');
+insert into asientos values('B', 'Airbus340', '10');
+insert into asientos values('C', 'Airbus340', '10');
+insert into asientos values('D', 'Airbus340', '10');
+
+insert into asientos values('A', 'Airbus340', '11');
+insert into asientos values('B', 'Airbus340', '11');
+insert into asientos values('C', 'Airbus340', '11');
+insert into asientos values('D', 'Airbus340', '11');
 
 /*
 -- modelo Airbus321(84 asientos)
@@ -692,14 +723,6 @@ insert into asientos values('C', 'Airbus321', '01');
 insert into asientos values('D', 'Airbus321', '01');
 insert into asientos values('E', 'Airbus321', '01');
 insert into asientos values('F', 'Airbus321', '01');
-insert into asientos values('G', 'Airbus321', '01');
-insert into asientos values('H', 'Airbus321', '01');
-insert into asientos values('I', 'Airbus321', '01');
-insert into asientos values('J', 'Airbus321', '01');
-insert into asientos values('K', 'Airbus321', '01');
-insert into asientos values('L', 'Airbus321', '01');
-insert into asientos values('M', 'Airbus321', '01');
-insert into asientos values('N', 'Airbus321', '01');
 
 insert into asientos values('A', 'Airbus321', '02');
 insert into asientos values('B', 'Airbus321', '02');
@@ -707,14 +730,6 @@ insert into asientos values('C', 'Airbus321', '02');
 insert into asientos values('D', 'Airbus321', '02');
 insert into asientos values('E', 'Airbus321', '02');
 insert into asientos values('F', 'Airbus321', '02');
-insert into asientos values('G', 'Airbus321', '02');
-insert into asientos values('H', 'Airbus321', '02');
-insert into asientos values('I', 'Airbus321', '02');
-insert into asientos values('J', 'Airbus321', '02');
-insert into asientos values('K', 'Airbus321', '02');
-insert into asientos values('L', 'Airbus321', '02');
-insert into asientos values('M', 'Airbus321', '02');
-insert into asientos values('N', 'Airbus321', '02');
 
 insert into asientos values('A', 'Airbus321', '03');
 insert into asientos values('B', 'Airbus321', '03');
@@ -722,14 +737,6 @@ insert into asientos values('C', 'Airbus321', '03');
 insert into asientos values('D', 'Airbus321', '03');
 insert into asientos values('E', 'Airbus321', '03');
 insert into asientos values('F', 'Airbus321', '03');
-insert into asientos values('G', 'Airbus321', '03');
-insert into asientos values('H', 'Airbus321', '03');
-insert into asientos values('I', 'Airbus321', '03');
-insert into asientos values('J', 'Airbus321', '03');
-insert into asientos values('K', 'Airbus321', '03');
-insert into asientos values('L', 'Airbus321', '03');
-insert into asientos values('M', 'Airbus321', '03');
-insert into asientos values('N', 'Airbus321', '03');
 
 insert into asientos values('A', 'Airbus321', '04');
 insert into asientos values('B', 'Airbus321', '04');
@@ -737,14 +744,6 @@ insert into asientos values('C', 'Airbus321', '04');
 insert into asientos values('D', 'Airbus321', '04');
 insert into asientos values('E', 'Airbus321', '04');
 insert into asientos values('F', 'Airbus321', '04');
-insert into asientos values('G', 'Airbus321', '04');
-insert into asientos values('H', 'Airbus321', '04');
-insert into asientos values('I', 'Airbus321', '04');
-insert into asientos values('J', 'Airbus321', '04');
-insert into asientos values('K', 'Airbus321', '04');
-insert into asientos values('L', 'Airbus321', '04');
-insert into asientos values('M', 'Airbus321', '04');
-insert into asientos values('N', 'Airbus321', '04');
 
 insert into asientos values('A', 'Airbus321', '05');
 insert into asientos values('B', 'Airbus321', '05');
@@ -752,14 +751,6 @@ insert into asientos values('C', 'Airbus321', '05');
 insert into asientos values('D', 'Airbus321', '05');
 insert into asientos values('E', 'Airbus321', '05');
 insert into asientos values('F', 'Airbus321', '05');
-insert into asientos values('G', 'Airbus321', '05');
-insert into asientos values('H', 'Airbus321', '05');
-insert into asientos values('I', 'Airbus321', '05');
-insert into asientos values('J', 'Airbus321', '05');
-insert into asientos values('K', 'Airbus321', '05');
-insert into asientos values('L', 'Airbus321', '05');
-insert into asientos values('M', 'Airbus321', '05');
-insert into asientos values('N', 'Airbus321', '05');
 
 insert into asientos values('A', 'Airbus321', '06');
 insert into asientos values('B', 'Airbus321', '06');
@@ -767,11 +758,70 @@ insert into asientos values('C', 'Airbus321', '06');
 insert into asientos values('D', 'Airbus321', '06');
 insert into asientos values('E', 'Airbus321', '06');
 insert into asientos values('F', 'Airbus321', '06');
-insert into asientos values('G', 'Airbus321', '06');
-insert into asientos values('H', 'Airbus321', '06');
-insert into asientos values('I', 'Airbus321', '06');
-insert into asientos values('J', 'Airbus321', '06');
-insert into asientos values('K', 'Airbus321', '06');
-insert into asientos values('L', 'Airbus321', '06');
-insert into asientos values('M', 'Airbus321', '06');
-insert into asientos values('N', 'Airbus321', '06');
+
+insert into asientos values('A', 'Airbus321', '07');
+insert into asientos values('B', 'Airbus321', '07');
+insert into asientos values('C', 'Airbus321', '07');
+insert into asientos values('D', 'Airbus321', '07');
+insert into asientos values('E', 'Airbus321', '07');
+insert into asientos values('F', 'Airbus321', '07');
+
+insert into asientos values('A', 'Airbus321', '08');
+insert into asientos values('B', 'Airbus321', '08');
+insert into asientos values('C', 'Airbus321', '08');
+insert into asientos values('D', 'Airbus321', '08');
+insert into asientos values('E', 'Airbus321', '08');
+insert into asientos values('F', 'Airbus321', '08');
+
+insert into asientos values('A', 'Airbus321', '09');
+insert into asientos values('B', 'Airbus321', '09');
+insert into asientos values('C', 'Airbus321', '09');
+insert into asientos values('D', 'Airbus321', '09');
+insert into asientos values('E', 'Airbus321', '09');
+insert into asientos values('F', 'Airbus321', '09');
+
+insert into asientos values('A', 'Airbus321', '10');
+insert into asientos values('B', 'Airbus321', '10');
+insert into asientos values('C', 'Airbus321', '10');
+insert into asientos values('D', 'Airbus321', '10');
+insert into asientos values('E', 'Airbus321', '10');
+insert into asientos values('F', 'Airbus321', '10');
+
+insert into asientos values('A', 'Airbus321', '11');
+insert into asientos values('B', 'Airbus321', '11');
+insert into asientos values('C', 'Airbus321', '11');
+insert into asientos values('D', 'Airbus321', '11');
+insert into asientos values('E', 'Airbus321', '11');
+insert into asientos values('F', 'Airbus321', '11');
+
+insert into asientos values('A', 'Airbus321', '12');
+insert into asientos values('B', 'Airbus321', '12');
+insert into asientos values('C', 'Airbus321', '12');
+insert into asientos values('D', 'Airbus321', '12');
+insert into asientos values('E', 'Airbus321', '12');
+insert into asientos values('F', 'Airbus321', '12');
+
+insert into asientos values('A', 'Airbus321', '13');
+insert into asientos values('B', 'Airbus321', '13');
+insert into asientos values('C', 'Airbus321', '13');
+insert into asientos values('D', 'Airbus321', '13');
+insert into asientos values('E', 'Airbus321', '13');
+insert into asientos values('F', 'Airbus321', '13');
+
+insert into asientos values('A', 'Airbus321', '14');
+insert into asientos values('B', 'Airbus321', '14');
+insert into asientos values('C', 'Airbus321', '14');
+insert into asientos values('D', 'Airbus321', '14');
+insert into asientos values('E', 'Airbus321', '14');
+insert into asientos values('F', 'Airbus321', '14');
+
+-- #########################################
+-- Datos para la tabla ROLES
+-- #########################################
+INSERT INTO `roles` (`id_rol`, `descripcion`) VALUES ('1000', 'user'), ('2000', 'admin');
+
+-- #########################################
+-- Datos para la tabla USUARIOS
+-- #########################################
+INSERT INTO `usuarios` (`id_usuario`, `nombre`, `password`, `id_rol`) VALUES ('1', 'javi', 'javi', '1000');
+INSERT INTO `usuarios` (`id_usuario`, `nombre`, `password`, `id_rol`) VALUES ('10000', 'admin', 'admin', '1000'), ('10001', 'admin', 'admin', '2000');

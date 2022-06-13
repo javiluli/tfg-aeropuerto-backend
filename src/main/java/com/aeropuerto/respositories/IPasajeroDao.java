@@ -1,5 +1,7 @@
 package com.aeropuerto.respositories;
 
+import java.util.List;
+
 import javax.transaction.Transactional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -19,6 +21,6 @@ public interface IPasajeroDao extends JpaRepository<Pasajero, IdPasajero> {
     public void savePasajeroDto(String dni, String apellidos, String email, String nombre, String id_reserva);
 
     @Query(value = "SELECT p.* FROM pasajeros p WHERE p.id_reserva = :idReserva", nativeQuery = true)
-    public Pasajero findPasajeroByIdReserva(String idReserva);
+    public List<Pasajero> findPasajerosByIdReserva(String idReserva);
 
 }

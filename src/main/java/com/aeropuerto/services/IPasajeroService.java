@@ -1,11 +1,13 @@
 package com.aeropuerto.services;
 
-import com.aeropuerto.entitys.Pasajero;
+import java.util.List;
+
 import com.aeropuerto.models.dto.PasajeroDTO;
+import com.aeropuerto.models.dto.PasajerosByReservaDTO;
 
 public interface IPasajeroService {
 
-    public Pasajero findPasajeroByIdReserva(String idReserva);
+    public List<PasajerosByReservaDTO> findPasajerosByIdReserva(String idReserva);
 
     public void savePasajeroDto(PasajeroDTO pasajero);
 

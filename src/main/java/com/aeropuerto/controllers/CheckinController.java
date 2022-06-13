@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.aeropuerto.entitys.Checkin;
-import com.aeropuerto.entitys.Reserva;
 import com.aeropuerto.models.dto.CheckinDTO;
 import com.aeropuerto.services.ICheckinService;
 
@@ -26,7 +25,6 @@ public class CheckinController {
 
     @PostMapping("/checkin")
     public ResponseEntity<String> guardarCheckin(@RequestBody CheckinDTO checkinDto) {
-	System.out.println(checkinDto);
 	iCheckinService.saveCheckinDto(checkinDto);
 	return new ResponseEntity<String>(HttpStatus.OK);
     }
@@ -34,5 +32,10 @@ public class CheckinController {
     @GetMapping("/checkins/{modelo}/{id}")
     public ResponseEntity<List<Checkin>> findCheckinsByIdVueloAndNombreModelo(@PathVariable(name = "modelo") String nombreModelo, @PathVariable(name = "id") String idVuelo) {
 	return new ResponseEntity<List<Checkin>>(iCheckinService.findCheckinsByIdVueloAndNombreModelo(idVuelo, nombreModelo), HttpStatus.OK);
+    }
+    
+    @GetMapping("/checkins/{id}")
+    public ResponseEntity<List<CheckinDTO>> findCheckinsByIdReserva(@PathVariable(name = "id") String idReserva) {
+	return new ResponseEntity<List<CheckinDTO>>(iCheckinService.findCheckinsByIdReserva(idReserva), HttpStatus.OK);
     }
 }

@@ -2,8 +2,12 @@ package com.aeropuerto.services;
 
 import java.util.List;
 
-import com.aeropuerto.entitys.Asiento;
+import com.aeropuerto.models.dto.AsientoDTO;
 
 public interface IAsientoService {
-    public List<Asiento> findAllAsientos();
+
+    public List<AsientoDTO> findAsientosByNombreModelo(String nombreModelo);
+
+    public List<String> findLetraAsientoByNombreModeloAndNumeroFila(String nombreModelo, String numeroFila);
+
 }

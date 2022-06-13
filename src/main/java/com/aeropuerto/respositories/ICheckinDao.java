@@ -17,10 +17,13 @@ public interface ICheckinDao extends JpaRepository<Checkin, IdCheckin> {
 
     @Modifying
     @Transactional
-    @Query(value = "INSERT INTO checkin VALUES ( :idVuelo, :nombreModelo, :numeroFila, :letraAsiento )", nativeQuery = true)
-    public void saveCheckinDto(String idVuelo, String nombreModelo, String numeroFila, String letraAsiento);
+    @Query(value = "INSERT INTO checkin VALUES ( :idVuelo, :nombreModelo, :numeroFila, :letraAsiento, :idReserva )", nativeQuery = true)
+    public void saveCheckinDto(String idVuelo, String nombreModelo, String numeroFila, String letraAsiento, String idReserva);
 
     @Query(value = "SELECT c.* FROM checkin c WHERE c.id_vuelo = :idVuelo AND c.nombre_modelo = :nombreModelo", nativeQuery = true)
     public List<Checkin> findCheckinsByIdVueloAndNombreModelo(String idVuelo, String nombreModelo);
+    
+    @Query(value = "SELECT c.* FROM checkin c WHERE c.id_reserva = :idReserva", nativeQuery = true)
+    public List<Checkin> findCheckinsByIdReserva(String idReserva);
 
 }

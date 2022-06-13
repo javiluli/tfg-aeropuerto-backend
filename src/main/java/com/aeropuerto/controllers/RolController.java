@@ -8,19 +8,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.aeropuerto.entitys.Fila;
-import com.aeropuerto.services.IFilaService;
+import com.aeropuerto.entitys.Rol;
+import com.aeropuerto.services.IRolService;
 
 @RestController
 @CrossOrigin("*")
-public class FilaController {
+public class RolController {
 
     @Autowired
-    private IFilaService filaService;
+    private IRolService iRolService;
 
-    @GetMapping("/filas/{id}")
-    public ResponseEntity<Fila> obtenerMaxNumeroFilaYCantidadAsientosByNombreModelo(@PathVariable(name = "id") String nombreModelo) {
-	return new ResponseEntity<Fila>(filaService.obtenerMaxNumeroFilaYCantidadAsientosByNombreModelo(nombreModelo), HttpStatus.OK);
+    @GetMapping("/rol/{id}")
+    public ResponseEntity<Rol> findRolByIdRol(@PathVariable(name = "id") String idRol) {
+	return new ResponseEntity<Rol>(iRolService.findRolByIdRol(idRol), HttpStatus.OK);
     }
 
 }

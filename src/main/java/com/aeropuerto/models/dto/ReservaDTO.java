@@ -2,9 +2,6 @@ package com.aeropuerto.models.dto;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
-
-import com.aeropuerto.entitys.Pasajero;
 
 public class ReservaDTO implements Serializable {
 
