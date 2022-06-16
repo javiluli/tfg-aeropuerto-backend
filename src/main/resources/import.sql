@@ -256,9 +256,7 @@ insert into escalas values (1, '025', 'EST');
 insert into escalas values (1, '026', 'MUN');
 insert into escalas values (2, '026', 'EST');
 
-/*
 - Filas del modelo AIRBUS 319(32 asientos)
-*/
 insert into filas values('01', 4, 'Airbus319');
 insert into filas values('02', 4, 'Airbus319');
 insert into filas values('03', 4, 'Airbus319');
@@ -267,10 +265,8 @@ insert into filas values('05', 4, 'Airbus319');
 insert into filas values('06', 4, 'Airbus319');
 insert into filas values('07', 4, 'Airbus319');
 insert into filas values('08', 4, 'Airbus319');
-/*
------------------------------------------
+
 -- Filas del modelo AIRBUS 320(48 asientos)
-*/
 insert into filas values('01', 6, 'Airbus320');
 insert into filas values('02', 6, 'Airbus320');
 insert into filas values('03', 6, 'Airbus320');
@@ -279,10 +275,8 @@ insert into filas values('05', 6, 'Airbus320');
 insert into filas values('06', 6, 'Airbus320');
 insert into filas values('07', 6, 'Airbus320');
 insert into filas values('08', 6, 'Airbus320');
-/*
-------------------------------------------
+
 -- Filas del modelo Md87 (28 asientos)
-*/
 insert into filas values('01', 4, 'Md87');
 insert into filas values('02', 4, 'Md87');
 insert into filas values('03', 4, 'Md87');
@@ -290,10 +284,8 @@ insert into filas values('04', 4, 'Md87');
 insert into filas values('05', 4, 'Md87');
 insert into filas values('06', 4, 'Md87');
 insert into filas values('07', 4, 'Md87');
-/*
-----------------------------------------
+
 -- Filas modelo boeing 747(48 asientos)
-*/
 insert into filas values('01', 4, 'Boeing747');
 insert into filas values('02', 4, 'Boeing747');
 insert into filas values('03', 4, 'Boeing747');
@@ -306,10 +298,8 @@ insert into filas values('09', 4, 'Boeing747');
 insert into filas values('10', 4, 'Boeing747');
 insert into filas values('11', 4, 'Boeing747');
 insert into filas values('12', 4, 'Boeing747');
-/*
-------------------------------
+
 -- Filas modelo boeing 757(78 asientos)
-*/
 insert into filas values('01', 6, 'Boeing757');
 insert into filas values('02', 6, 'Boeing757');
 insert into filas values('03', 6, 'Boeing757');
@@ -323,10 +313,8 @@ insert into filas values('10', 6, 'Boeing757');
 insert into filas values('11', 6, 'Boeing757');
 insert into filas values('12', 6, 'Boeing757');
 insert into filas values('13', 6, 'Boeing757');
-/*
-----------------------------------
+
 -- Filas modelo Airbus 340(44 asientos)
-*/
 insert into filas values('01', 4, 'Airbus340');
 insert into filas values('02', 4, 'Airbus340');
 insert into filas values('03', 4, 'Airbus340');
@@ -338,10 +326,8 @@ insert into filas values('08', 4, 'Airbus340');
 insert into filas values('09', 4, 'Airbus340');
 insert into filas values('10', 4, 'Airbus340');
 insert into filas values('11', 4, 'Airbus340');
-/*
-----------------------------------------
+
 -- Filas modelo Airbus 321(84 asientos)
-*/
 insert into filas values('01', 6, 'Airbus321');
 insert into filas values('02', 6, 'Airbus321');
 insert into filas values('03', 6, 'Airbus321');
@@ -356,12 +342,12 @@ insert into filas values('11', 6, 'Airbus321');
 insert into filas values('12', 6, 'Airbus321');
 insert into filas values('13', 6, 'Airbus321');
 insert into filas values('14', 6, 'Airbus321');
-/*
----------------------------------------------
-------------DATOS ASIENTOS-------------------
----------------------------------------------
+
+-- -------------------------------------------
+-- ----------DATOS ASIENTOS-------------------
+-- -------------------------------------------
+
 -- modelo AIRBUS 319(32 asientos)
-*/
 insert into asientos values('A', 'Airbus319', '01');
 insert into asientos values('B', 'Airbus319', '01');
 insert into asientos values('C', 'Airbus319', '01');
@@ -402,9 +388,7 @@ insert into asientos values('B', 'Airbus319', '08');
 insert into asientos values('C', 'Airbus319', '08');
 insert into asientos values('D', 'Airbus319', '08');
 
-/*
 -- modelo AIRBUS 320(48 asientos)
-*/
 insert into asientos values('A', 'Airbus320', '01');
 insert into asientos values('B', 'Airbus320', '01');
 insert into asientos values('C', 'Airbus320', '01');
@@ -461,9 +445,7 @@ insert into asientos values('D', 'Airbus320', '08');
 insert into asientos values('E', 'Airbus320', '08');
 insert into asientos values('F', 'Airbus320', '08');
 
-/*
 -- modelo Md87 (28 asientos)
-*/
 insert into asientos values('A', 'Md87', '01');
 insert into asientos values('B', 'Md87', '01');
 insert into asientos values('C', 'Md87', '01');
@@ -499,9 +481,7 @@ insert into asientos values('B', 'Md87', '07');
 insert into asientos values('C', 'Md87', '07');
 insert into asientos values('D', 'Md87', '07');
 
-/*
 -- modelo Boeing 747(48 asientos)
-*/
 insert into asientos values('A', 'Boeing747', '01');
 insert into asientos values('B', 'Boeing747', '01');
 insert into asientos values('C', 'Boeing747', '01');
@@ -562,9 +542,7 @@ insert into asientos values('B', 'Boeing747', '12');
 insert into asientos values('C', 'Boeing747', '12');
 insert into asientos values('D', 'Boeing747', '12');
 
-/*
 -- modelo Boeing 757(78 asientos)
-*/
 insert into asientos values('A', 'Boeing757', '01');
 insert into asientos values('B', 'Boeing757', '01');
 insert into asientos values('C', 'Boeing757', '01');
@@ -656,9 +634,7 @@ insert into asientos values('D', 'Boeing757', '13');
 insert into asientos values('E', 'Boeing757', '13');
 insert into asientos values('F', 'Boeing757', '13');
 
-/*
 -- modelo Airbus340(44 asientos)
-*/
 insert into asientos values('A', 'Airbus340', '01');
 insert into asientos values('B', 'Airbus340', '01');
 insert into asientos values('C', 'Airbus340', '01');
@@ -714,9 +690,8 @@ insert into asientos values('B', 'Airbus340', '11');
 insert into asientos values('C', 'Airbus340', '11');
 insert into asientos values('D', 'Airbus340', '11');
 
-/*
+
 -- modelo Airbus321(84 asientos)
-*/
 insert into asientos values('A', 'Airbus321', '01');
 insert into asientos values('B', 'Airbus321', '01');
 insert into asientos values('C', 'Airbus321', '01');
